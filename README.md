@@ -54,7 +54,7 @@ Covers utility classes like spacing, borders, and shadows.
 ## How to Use
 1. Clone the repository:
 ```sh
-git clone https://github.com/Misba0019/color_project.git
+git clone https://github.com/Misba0019/bootstrap_basics.git
 ```
 2. Open any `.html` file in your browser to view the corresponding Bootstrap feature.
 
