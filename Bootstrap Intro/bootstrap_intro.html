@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Basics</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+    <h1 class="display-1 text-center text-info">Bootstrap Playgrounds</h1>
+    <h2 class="display-4">Buttons</h2>
+    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-danger">Danger</button>
+    <button class="btn btn-warning">Caution!</button>
+    <button class="btn btn-outline-danger">Outline Danger</button>
+    <button class="btn btn-outline-danger btn-lg">Button</button>
+    <button class="btn btn-warning" disabled>Disabled</button>
+    <!-- class="btn btn-primary" -- these are all types of buttons.-->
+
+    <h2>Button Groups</h2>
+    <div class="btn-group">
+    <button class="btn btn-warning">One</button>
+    <button class="btn btn-danger">Two</button>
+    <button class="btn btn-warning">Three</button>
+    </div>
+
+    <div>
+        <h2>Alerts</h2>
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            <h3 class="alert-heading">Oh No!</h3>
+            Caution! This is a warning alert—check it out!
+        <button aria-label="Close" class="close" data-dismiss="alert"> <!-- aria-label -- Use this as a label closed-->
+            <span aria-hidden="true">&times;</span> <!-- aria-hidden -- Hide this from the screen reader and all-->
+        </button>
+        </div>
+    </div>
+
+    <h2 class="display-4">Typography</h2>
+    <!-- class="display" -- is for headings. we can make them bigger or smaller 1-4 display there is  and there needs not to be an order for it to work. -->
+
+    <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat aliquam culpa adipisci cumque minima excepturi ratione porro non error accusantium, officiis nihil. Sed commodi quos dolorem? Officiis eveniet sunt doloribus.
+    Quaerat maiores doloribus quod quas tenetur, saepe nisi! Consequuntur adipisci totam blanditiis aliquid iste animi ipsa nemo aperiam, numquam nisi atque hic expedita earum, maiores eum incidunt! Debitis, ipsum fuga.</p>
+    <!-- class="lead" -- is for a paragraph to make it's font-size and weigth a little less and make it stand out. -->
+
+    <h2 class="display-4">Blockquote and Badge<span class="badge badge-info badge-pill">New</h2>
+    <blockquote class="blockquote">
+        <button class="btn btn-dark">Notification<span class="badge badge-success badge-pill">5</span></button>
+        <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse minus quibusdam, inventore impedit nesciunt atque
+            mollitia sunt illum sint hic dignissimos iure dolor nostrumreprehenderit asperiores repudiandae necessitatibus
+            ipsa nobis!</p>
+
+    <footer class="blockquote-footer">Mr Lorem Ipsum</footer>
+    </blockquote>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+</body>
+</html>
+
+<!-- Bootstrap is just a "class" we add on just to make our codes way easier and faster. -->

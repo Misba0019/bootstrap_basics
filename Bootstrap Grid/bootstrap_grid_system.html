@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Grid System - Bootstrap
+    </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container text-center">
+
+        <h1 class="display-1 text-center text-info">The Grid System</h1>
+        
+        <div class="row">
+            <div class="col-6 bg-info">I am Of 6 Units</div>
+            <div class="col-6 bg-primary">I am Of 6 Units</div>
+        </div>
+        <div class="row">
+            <div class="col-3 bg-primary">I am 3 Units</div>
+            <div class="col-6 bg-warning">I am Of 6 Units</div>
+            <div class="col-3 bg-danger">I am 3 Units</div>
+        </div>
+        <div class="row">
+            <div class="col bg-info">Equal Units</div>
+            <div class="col bg-danger">Equal Units</div>
+            <div class="col-9 bg-info">I am of 9 Units</div>
+        </div>
+
+        <h2 class="display-3">Responsive Grid</h2>
+        <div class="row mb-3">
+            <div class="col-md-6 col-xl-3 bg-info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis
+                recusandae deleniti distinctio laudantium accusamus consequatur expedita ut aut alias? Aspernatur
+                libero, delectus corrupti incidunt quisquam quis doloribus cumque est eius!</div>
+
+            <div class="col-md-6 col-xl-3 bg-primary">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis
+                recusandae deleniti distinctio
+                laudantium accusamus consequatur expedita ut aut alias? Aspernatur libero, delectus corrupti incidunt
+                quisquam
+                quis doloribus cumque est eius!</div>
+
+            <div class="col-md-6 col-xl-3 bg-info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis
+                recusandae deleniti
+                distinctio laudantium accusamus consequatur expedita ut aut alias? Aspernatur libero, delectus corrupti
+                incidunt
+                quisquam quis doloribus cumque est eius!</div>
+
+            <div class="col-md-6 col-xl-3 bg-primary">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis
+                recusandae
+                deleniti distinctio
+                laudantium accusamus consequatur expedita ut aut alias? Aspernatur libero, delectus corrupti incidunt
+                quisquam
+                quis doloribus cumque est eius!</div>
+        </div>
+    <!-- col-md-3 -- means this class="col" will be of (3 units) on the screen size (medium) -->
+
+    <h2 class="display-3">Grid Alignment - Utilities(Helper Class)</h2>
+    <div class="row align-items-start mb-3">
+        <div class="col-md-6 col-xl-3 bg-info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis
+            recusandae deleniti distinctio laudantium accusamus consequatur expedita ut aut alias? Aspernatur
+            libero, delectus corrupti incidunt quisquam quis doloribus cumque est eius!</div>
+    
+        <div class="col-md-6 col-xl-3 bg-primary">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis
+            recusandae deleniti distinctio
+            laudantium accusamus consequatur expedita ut aut alias? Aspernatur libero, delectus corrupti incidunt
+            quisquam
+            quis doloribus cumque est eius! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem facere illo at sed. Iusto, incidunt voluptates. Aperiam, quas libero esse qui, expedita, id modi asperiores maxime doloremque laborum quaerat molestiae.</div>
+    
+        <div class="col-md-6 col-xl-3 bg-info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis
+            recusandae deleniti
+            distinctio laudantium accusamus consequatur expedita ut aut alias? Aspernatur libero, delectus corrupti
+            incidunt
+            quisquam quis doloribus cumque est eius!</div>
+    
+        <div class="col-md-6 col-xl-3 bg-primary align-self-end">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis
+            recusandae
+            deleniti distinctio
+            laudantium accusamus consequatur expedita ut aut alias? Aspernatur libero, delectus corrupti incidunt
+            quisquam
+            quis doloribus cumque est eius!</div>
+    </div>
+
+    <h3 class="display-3">Justify Content</h3>
+    <div class="row border justify-content-center justify-content-lg-start justify-content-xl-between mb-3">
+        <div class="col-4 bg-primary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur facere iusto delectus nostrum debitis beatae dolorum accusamus nisi. Voluptate minus quidem dignissimos libero harum odit ad nihil doloribus repellendus et!
+        </div>
+        <div class="col-4 bg-info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur facere iusto
+            delectus nostrum debitis beatae dolorum accusamus nisi. Voluptate minus quidem dignissimos libero harum odit ad
+            nihil doloribus repellendus et!
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <div class="col-xl-4 col-md-6">
+            <img class="img-fluid"
+                src="https://images.unsplash.com/photo-1549608276-5786777e6587?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="">
+        </div>
+
+        <div class="col-xl-4 col-md-6">
+            <img class="img-fluid"
+                src="https://images.unsplash.com/photo-1467811884194-ae868cd3f090?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="">
+        </div>
+
+        <div class="col-xl-4 col-md-6">
+            <img class="img-fluid"
+                src="https://images.unsplash.com/photo-1444465693019-aa0b6392460d?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="">
+        </div>
+    </div>
+</div>
+
+    <!-- col-md-6 -- Will work for when the screen size is medium so each content in a row will be of 6 units.
+
+        And col-xl-3 -- is for when the screen size is extra large, so each content in a .row will be of 3 units-->
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

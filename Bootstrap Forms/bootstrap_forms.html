@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <title>Bootstrap - Forms</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="display-2">Bootstrap-Form</h1>
+
+        <form action="#nowhere">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="email">
+                </div>
+
+                <div class="form-group col-md-6">
+                    <label for="pass">Password</label>
+                    <input type="password" class="form-control" id="pass" placeholder="password">
+                </div>
+            </div>
+
+            <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="city">City</label>
+                <input type="text" class="form-control" id="city">
+            </div>
+
+            <div class="form-group col-md-3 col-6">
+                <label for="select-state">Select State</label>
+                <select class="form-control" name="state" id="select-state">
+                    <option value="uttar-pradesh">Uttar Pradesh</option>
+                    <option value="sikkim">Sikkim</option>
+                    <option value="bihar">Bihar</option>
+                </select>
+            </div>
+
+            <div class="form-group col-md-3 col-6">
+                <label for="zip-code">Zip-Code</label>
+                <input type="text" class="form-control" id="zip-code">
+            </div>
+            </div>
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="tos">
+                <label class="form-check-label" for="tos">Sign Me Up</label>
+            </div>
+
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="custom-check">
+                <label class="custom-control-label" for="custom-check">Custom Checkbox Sign up</label>
+            </div>
+            <button type="submit" class="btn btn-info">Submit</button>
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+<!-- Form-group
+
+It is to make a group of the form input and content. Comes after div.container and form action
+
+<div class="form-group"> -->
+
+<!-- Form-control
+
+It gives us a nicer-looking input.
+Put on the input itself. Text, password, email or checkbox, radio button.
+
+<input type="text" name="username" id="username" class="form-control"> -->
+
+<!-- CheckBox
+
+Default checkboxes and radios are improved upon with the help of .form-check
+
+<div class="form-check">
+<input class="form-check-input" type="checkbox" value="" id="tos">
+<label class="form-check-label" for="tos">Sign Me Up</label> </div>
+
+Note:We put value attribute empty here because we don't need this to send any specific info to the server rn. -->
+
+<!-- Custom Checkbox-
+
+We get a nicer-looking checkbox with this.
+There's a lot of code that goes in here.
+
+<div class="custom-control custom-checkbox">
+<input type="checkbox" class="custom-control-input" id="tos">
+<label class="custom-control-label" for="tos">Sign Me Up</label></div>
+
+just add custom to it. -->
