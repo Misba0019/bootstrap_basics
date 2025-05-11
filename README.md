@@ -63,3 +63,6 @@ git clone https://github.com/Misba0019/color_project.git
 ## Credits
 - Images used in this project are sourced from [Unsplash](https://unsplash.com/).
 - Built using [Bootstrap 4.6.2](https://getbootstrap.com/).
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
