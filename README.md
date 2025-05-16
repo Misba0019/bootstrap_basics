@@ -64,5 +64,10 @@ git clone https://github.com/Misba0019/bootstrap_basics.git
 - Images used in this project are sourced from [Unsplash](https://unsplash.com/).
 - Built using [Bootstrap 4.6.2](https://getbootstrap.com/).
 
+--- 
+
+## Support
+⭐ If you find this project helpful, please consider visiting the repo and giving it a ⭐ star — it really helps!
+
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
